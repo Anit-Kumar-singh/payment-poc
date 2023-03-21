@@ -40,7 +40,7 @@ form {
   }
   
   /* Buttons and links */
-  button {
+  .stripe-button {
     background: #0071EB;
     font-family: Arial, sans-serif;
     color: #ffffff;

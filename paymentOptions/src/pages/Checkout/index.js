@@ -5,9 +5,7 @@ import CheckoutForm from "../../component/Checkout";
 import { PAYMENT_BASE_URL } from "../../constants/api";
 import "./Checkout.css";
 
-const stripePromise = loadStripe(
-  "pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmEDMb0gSCassK5T3ZfxsAbcgKVmAIXF7oZ6ItlZZbXO6idTHE67IM007EwQ4uN3"
-);
+const stripePromise = loadStripe(process.env.STRIPE_API_KEY);
 
 const CheckoutPage = () => {
   const [clientSecret, setClientSecret] = useState("");
