@@ -1,0 +1,42 @@
+.step-complete{
+    display: flex;
+    align-items: center;
+    font-weight:600;
+   }
+   .step-complete img{
+     width: 6%;
+   }
+   
+   .next-step{
+     color:#B3B3B3;
+     margin-top: .1rem;
+   }
+   .container{
+     margin: 2% ;
+     /* max-width: 50%; */
+     padding: 1rem;
+   }
+   .payment-container{
+     max-width: 40%;
+   }
+   .payment-section{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-grow: initial;
+   }
+   .payment-right-portion{
+     border: 1px solid gray;
+   }
+   .fund-deposit{
+     font-size: 2.1rem;
+   }
+   
+   .close-btn{
+     color: #0071EB;
+     position: relative;
+     left: 90%;
+     top: -39px;
+     font-size: 25px;
+   }
+

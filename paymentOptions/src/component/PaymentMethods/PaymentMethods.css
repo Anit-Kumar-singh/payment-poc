@@ -1,0 +1,55 @@
+.chip-container{
+    max-width: 90%;
+    padding: .3rem .8rem .3rem .8rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-radius: 50px;
+    margin-top: 40px;
+    background-color:#F3F3F3;
+    cursor: pointer;
+}
+
+.active{
+   background-color: #0071EB;
+   color: white;
+   transition: all .9s ease-in-out;
+}
+.chip-logo{
+    width: 100px;
+    border-radius: 50px;
+    background-color: white;
+    padding: .9rem;
+}
+.logo{
+    width: 100px;
+}
+.chip-dot{
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    background-color: white;
+}
+.chip-content{
+    margin-top: -1.8rem;
+    margin-left: 12px;
+    width: 75%;
+}
+.chip-heading{
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+.chip-subheading{
+    margin-top: -2.4rem;
+    word-wrap: break-word;
+}
+@media screen and (max-width:670px) {
+    .chip-container{
+        flex-direction: column;
+        padding: 0.8rem;
+    }
+}
+hr.line{
+    border: 1px solid #f6f6f6;
+    max-width: 85%;
+}
