@@ -8,6 +8,8 @@ const devConfig = {
   mode: "development",
   devServer: {
     port: 4000,
+    hot: true,
+    open: true,
     historyApiFallback: {
       index: "index.html",
     },

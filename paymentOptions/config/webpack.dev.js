@@ -9,6 +9,8 @@ const devConfig = {
     publicPath: "http://localhost:4001/",
   },
   devServer: {
+    hot: true,
+    open: true,
     port: 4001,
     historyApiFallback: {
       index: "/index.html",
