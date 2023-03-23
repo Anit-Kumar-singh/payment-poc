@@ -21,7 +21,7 @@ const devConfig = {
       name: "payment_options",
       filename: "remoteEntry.js",
       exposes: {
-        "./PaymentOptionApp": "./src/bootstrap",
+        "./PaymentOptionApp": "./src/app.js",
       },
       shared: packageJson.dependencies,
     }),
